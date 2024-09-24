@@ -6,7 +6,7 @@ bar_color = (0, 0, 0)  # Color de las barras
 bg_color = (255, 255, 255)  # Color de fondo
 output_file = "barcode-example.png" # Nombre del archivo de salida
 
-#pyBarcodeQRGen.generate_barcode(data, bar_color, bg_color, output_file)
+pyBarcodeQRGen.generate_barcode(data, bar_color, bg_color, output_file)
 print(f"Código de barras guardado en {output_file}")
 
 
