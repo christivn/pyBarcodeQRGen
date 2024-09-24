@@ -1,6 +1,8 @@
-# Generador de Códigos de Barras y Códigos QR  con colores personalizados
+# 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 Generador de Códigos de Barras y Códigos QR con colores personalizados.
 
-Este repositorio contiene una implementación para generar códigos de barras y códigos QR con opciones de personalización de colores y formatos.
+Este repositorio contiene una implementación para generar códigos de barras y códigos QR con opciones de personalización de colores.
+
+<br>
 
 ## Instalación
 
@@ -9,6 +11,8 @@ Para instalar las dependencias necesarias, ejecuta:
 ```bash
 pip install python-barcode pillow qrcode[pil]
 ```
+
+<br>
 
 ## Ejemplo código de barras
 ``` python
@@ -26,12 +30,13 @@ print(f"Código de barras guardado en {output_file}")
 
 | Ejemplo                          |
 |----------------------------------|
-| ![Imagen 1](img/barcode-example.png) |
+| <img src="img/barcode-example.png" alt="Ejemplo" width="310"/> |
 
 | Ejemplo color 1                         | Ejemplo color 2                         | Ejemplo color 3                         |
 |----------------------------------|----------------------------------|----------------------------------|
-| ![Imagen 1](img/barcode-example-color-1.png) | ![Imagen 2](img/barcode-example-color-2.png) | ![Imagen 3](img/barcode-example-color-3.png) |
+| ![Imagen color 1](img/barcode-example-color-1.png) | ![Imagen color 2](img/barcode-example-color-2.png) | ![Imagen color 3](img/barcode-example-color-3.png) |
 
+<br>
 
 ## Ejemplo código QR
 ``` python
