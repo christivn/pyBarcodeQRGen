@@ -24,7 +24,11 @@ output_file = "barcode-example.png" # Nombre del archivo de salida
 print(f"Código de barras guardado en {output_file}")
 ```
 
-| Imagen 1                         | Imagen 2                         | Imagen 3                         |
+| Ejemplo                          |
+|----------------------------------|
+| ![Imagen 1](img/barcode-example.png) |
+
+| Ejemplo color 1                         | Ejemplo color 2                         | Ejemplo color 3                         |
 |----------------------------------|----------------------------------|----------------------------------|
 | ![Imagen 1](img/barcode-example-color-1.png) | ![Imagen 2](img/barcode-example-color-2.png) | ![Imagen 3](img/barcode-example-color-3.png) |
 
@@ -42,3 +46,11 @@ output_file = "qrcode-example.png"  # Nombre del archivo de salida
 pyBarcodeQRGen.generate_qr_code(data, bar_color, bg_color, output_file)
 print(f"Código QR guardado en {output_file}")
 ```
+
+| Ejemplo                          |
+|----------------------------------|
+| ![Imagen 1](img/qrcode-example.png) |
+
+| Ejemplo color 1                         | Ejemplo color 2                         | Ejemplo color 3                         |
+|----------------------------------|----------------------------------|----------------------------------|
+| ![Imagen 1](img/qrcode-example-color-1.png) | ![Imagen 2](img/qrcode-example-color-2.png) | ![Imagen 3](img/qrcode-example-color-3.png) |
